@@ -1,0 +1,17 @@
+h1 {
+  color: blanchedalmond;
+  animation: alternate-reverse;
+  font-style: normal; /*dáng chữ*/
+  font-size: 50px; /*cỡ chữ*/
+  font-family: Verdana, Geneva, Tahoma, sans-serif; /*Font chữ*/
+  text-align: right; /*căn dòng*/
+}
+
+p {
+  color: yellowgreen;
+  font-size: x-large;
+}
+
+body {
+  background-color: coral;
+}
