@@ -6,12 +6,3 @@ h1 {
   font-family: Verdana, Geneva, Tahoma, sans-serif; /*Font chữ*/
   text-align: right; /*căn dòng*/
 }
-
-p {
-  color: yellowgreen;
-  font-size: x-large;
-}
-
-body {
-  background-color: coral;
-}

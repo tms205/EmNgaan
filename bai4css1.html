@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bấm Vào Đây Đi Nhóc</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Em Ngân ơi, bấm vào đây nè! 😜</h1>
+      <p>
+        Anh có điều bất ngờ cho em nè, sẵn sàng chưa?
+        <span class="heart">❤️</span>
+      </p>
+      <button onclick="showSurprise()">Bấm để xem bí mật!</button>
+      <nav>
+        <ul>
+          <a href="./bai4css.html"><li>Trang chủ</li></a>
+          <a href="./contact.html"><li>Contact</li></a>
+        </ul>
+      </nav>
+    </div>
+
+    <script>
+      function showSurprise() {
+        alert("Haha, em mà crush anh là anh cho em cả thế giới luôn! 😎");
+        confetti({
+          particleCount: 100,
+          spread: 70,
+          origin: { y: 0.6 },
+        });
+      }
+    </script>
+  </body>
+</html>
